@@ -1,11 +1,13 @@
-# GPT2sQA
+# GPT2 finetune task
 
 This repo includes an experiment of fine-tuning GPT-2 117M for Question Answering (QA). It also runs the model on Stanford Question Answering Dataset 2.0 (SQuAD). It uses Huggingface Inc.'s PyTorch implementation of GPT-2 and adapts from their fine-tuning of BERT for QA. 
 
 SQuAD data can be downloaded from: https://github.com/rajpurkar/SQuAD-explorer/tree/master/dataset
 
-Pretrained model files can be download from: https://huggingface.co/gpt2
+Pretrained model files can be downloaded from: https://huggingface.co/gpt2
 
+You can also download related models from Huggingface: GPT Large, GPT Medium, and GPT XL.
+Remember to change the checkpoint in the squad.py file to the pretrained model path you downloaded.
 
 To train and validate the model: 
 
